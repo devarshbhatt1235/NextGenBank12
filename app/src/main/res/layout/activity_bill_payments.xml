@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcimage"
+    android:padding="20dp">
+
+
+<TextView
+android:id="@+id/tvBillPaymentTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Bill Payments"
+android:textSize="28sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dp" />
+
+
+<EditText
+android:id="@+id/etBillerName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Biller Name"
+android:inputType="text"
+android:textColor="#FFFFFF"
+    android:textColorHint="@color/white"
+android:padding="12dp"
+android:layout_marginTop="40dp"
+android:layout_below="@id/tvBillPaymentTitle" />
+
+
+<EditText
+android:id="@+id/etAccountNumber"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Account Number"
+android:inputType="number"
+android:textColor="#FFFFFF"
+    android:textColorHint="@color/white"
+android:padding="12dp"
+android:layout_marginTop="20dp"
+android:layout_below="@id/etBillerName" />
+
+
+<EditText
+android:id="@+id/etPaymentAmount"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Payment Amount"
+android:inputType="numberDecimal"
+android:textColor="#FFFFFF"
+    android:textColorHint="@color/white"
+android:padding="12dp"
+android:layout_marginTop="20dp"
+android:layout_below="@id/etAccountNumber" />
+
+
+<Button
+android:id="@+id/btnPayBill"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Pay"
+    android:backgroundTint="#577481"
+    android:textColor="@android:color/white"
+android:layout_marginTop="50dp"
+android:layout_centerHorizontal="true"
+android:layout_below="@id/etPaymentAmount" />
+
+    </RelativeLayout>

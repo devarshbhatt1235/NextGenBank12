@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bcimage">
+
+
+    <TextView
+        android:id="@+id/tvWelcomeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btnAccountBalance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#577481"
+            android:drawableLeft="@drawable/ab"
+            android:padding="10dp"
+            android:text="Account Balance"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnFundTransfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/at"
+            android:padding="10dp"
+            android:text="Fund Transfer"
+            android:backgroundTint="#577481"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/btnTransactionHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ah"
+            android:padding="10dp"
+            android:text="Transaction History"
+            android:backgroundTint="#577481"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/btnBillPayments"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/bill"
+            android:text="Bill Payments"
+            android:backgroundTint="#577481"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/btnLoanManagement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/loan"
+            android:padding="10dp"
+            android:text="Loan Management"
+            android:backgroundTint="#577481"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/btnProfileSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ps"
+            android:padding="10dp"
+            android:text="Profile Settings"
+            android:backgroundTint="#577481"
+            android:textColor="@android:color/white"/>
+    </GridLayout>
+</LinearLayout>

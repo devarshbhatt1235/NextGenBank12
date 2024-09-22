@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcimage"
+    android:padding="20dp">
+
+
+<TextView
+android:id="@+id/tvProfileSettingsTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Profile Settings"
+android:textSize="28sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dp" />
+
+
+<EditText
+android:id="@+id/etCurrentPassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Current Password"
+android:inputType="textPassword"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:padding="12dp"
+android:layout_marginTop="40dp"
+android:layout_below="@id/tvProfileSettingsTitle" />
+
+<EditText
+android:id="@+id/etNewPassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="New Password"
+android:inputType="textPassword"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:padding="12dp"
+android:layout_marginTop="20dp"
+android:layout_below="@id/etCurrentPassword" />
+
+<EditText
+android:id="@+id/etConfirmNewPassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Confirm New Password"
+android:inputType="textPassword"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:padding="12dp"
+android:layout_marginTop="20dp"
+android:layout_below="@id/etNewPassword" />
+
+
+<EditText
+android:id="@+id/etNewEmail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="New Email"
+android:inputType="textEmailAddress"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:padding="12dp"
+android:layout_marginTop="40dp"
+android:layout_below="@id/etConfirmNewPassword" />
+
+
+<Button
+android:id="@+id/btnSaveChanges"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Save Changes"
+    android:backgroundTint="#577481"
+    android:textColor="@android:color/white"
+android:layout_centerHorizontal="true"
+android:layout_below="@id/etNewEmail"
+android:layout_marginTop="40dp" />
+
+    </RelativeLayout>

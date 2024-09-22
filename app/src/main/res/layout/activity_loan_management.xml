@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcimage"
+    android:padding="20dp">
+
+
+<TextView
+android:id="@+id/tvLoanManagementTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Loan Management"
+android:textSize="28sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dp" />
+
+
+<TextView
+android:id="@+id/tvLoanAmountLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Loan Amount:"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvLoanManagementTitle"
+android:layout_marginTop="30dp" />
+
+<TextView
+android:id="@+id/tvLoanAmount"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="₹1,000,000"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvLoanAmountLabel"
+android:layout_marginTop="10dp" />
+
+
+<TextView
+android:id="@+id/tvInterestRateLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Interest Rate:"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+android:layout_below="@id/tvLoanAmount"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_marginTop="20dp" />
+
+<TextView
+android:id="@+id/tvInterestRate"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="8.5%"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvInterestRateLabel"
+android:layout_marginTop="10dp" />
+
+
+<TextView
+android:id="@+id/tvMonthlyInstallmentLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Monthly Installment:"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvInterestRate"
+android:layout_marginTop="20dp" />
+
+<TextView
+android:id="@+id/tvMonthlyInstallment"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="₹15,000"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvMonthlyInstallmentLabel"
+android:layout_marginTop="10dp" />
+
+
+<TextView
+android:id="@+id/tvLoanTenureLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Loan Tenure:"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvMonthlyInstallment"
+android:layout_marginTop="20dp" />
+
+<TextView
+android:id="@+id/tvLoanTenure"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="10 years"
+android:textSize="18sp"
+android:textColor="#FFFFFF"
+    android:backgroundTint="@android:color/white"
+    android:textColorHint="@android:color/white"
+android:layout_below="@id/tvLoanTenureLabel"
+android:layout_marginTop="10dp" />
+
+
+<Button
+android:id="@+id/btnPayLoan"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Pay Monthly Installment"
+    android:backgroundTint="#577481"
+    android:textColor="@android:color/white"
+android:layout_centerHorizontal="true"
+android:layout_below="@id/tvLoanTenure"
+android:layout_marginTop="40dp" />
+
+    </RelativeLayout>

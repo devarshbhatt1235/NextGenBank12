@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcimage"
+    android:padding="20dp">
+
+
+<TextView
+android:id="@+id/tvAccountBalanceTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Account Balance"
+android:textSize="28sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dp" />
+
+
+<TextView
+android:id="@+id/tvBalanceLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Your Balance"
+android:textSize="20sp"
+android:textColor="#FFFFFF"
+android:layout_marginTop="50dp"
+android:layout_below="@id/tvAccountBalanceTitle"
+android:layout_centerHorizontal="true" />
+
+
+<TextView
+android:id="@+id/tvBalanceAmount"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="₹10,000.00"
+    android:textSize="36sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="20dp"
+    android:layout_below="@id/tvBalanceLabel"
+    android:layout_centerHorizontal="true" />
+
+
+<Button
+android:id="@+id/btnRefresh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Refresh Balance"
+    android:backgroundTint="#577481"
+    android:textColor="@android:color/white"
+android:layout_marginTop="50dp"
+android:layout_centerHorizontal="true"
+android:layout_below="@id/tvBalanceAmount" />
+
+    </RelativeLayout>

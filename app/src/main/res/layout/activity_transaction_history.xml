@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcimage"
+    android:padding="20dp">
+
+
+<TextView
+android:id="@+id/tvTransactionHistoryTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Transaction History"
+android:textSize="28sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dp" />
+
+
+<ListView
+android:id="@+id/lvTransactionHistory"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/tvTransactionHistoryTitle"
+android:layout_marginTop="20dp"
+android:divider="@android:color/transparent"
+    android:dividerHeight="10dp"
+    android:padding="10dp" />
+
+    </RelativeLayout>
+
