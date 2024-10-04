@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077990570211",
+    "project_id": "nextgenbank-120305",
+    "storage_bucket": "nextgenbank-120305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077990570211:android:3cee16c9b6a938c670edd6",
+        "android_client_info": {
+          "package_name": "com.example.nextgenbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3QKMc8B2o6Gstaz97rMyhJr8xshW67-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

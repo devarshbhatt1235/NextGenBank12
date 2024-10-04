@@ -10,7 +10,7 @@ android:id="@+id/tvTransactionHistoryTitle"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
 android:text="Transaction History"
-android:textSize="28sp"
+android:textSize="28dp"
 android:textStyle="bold"
 android:textColor="#FFFFFF"
 android:layout_centerHorizontal="true"
@@ -25,7 +25,9 @@ android:layout_below="@id/tvTransactionHistoryTitle"
 android:layout_marginTop="20dp"
 android:divider="@android:color/transparent"
     android:dividerHeight="10dp"
-    android:padding="10dp" />
+    android:padding="10dp"
+    android:drawable="@color/white"
+    />
 
     </RelativeLayout>
 

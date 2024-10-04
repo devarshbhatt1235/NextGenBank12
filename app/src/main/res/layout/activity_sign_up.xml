@@ -9,12 +9,25 @@
 
 
     <EditText
-        android:id="@+id/etFullName"
+        android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/white"
         android:hint="usernsme"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/etACNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Account Number"
         android:padding="10dp"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
