@@ -20,7 +20,7 @@
         android:backgroundTint="@android:color/white"
         android:textColorHint="@android:color/white"
         android:textColor="@android:color/white" />
-
+<!--LoginActivity-->
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
