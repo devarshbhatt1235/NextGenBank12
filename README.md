@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextGenBank</title>
-</head>
 <body>
     <h1>NextGenBank</h1>
     <p>NextGenBank is a modern digital banking platform designed to provide fast, secure, and user-friendly financial services. With innovative technology and customer-centric features, it offers seamless banking experiences for all users.</p>
